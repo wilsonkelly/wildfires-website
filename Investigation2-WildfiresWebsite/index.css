@@ -1,0 +1,89 @@
+/*main*/
+* {
+  box-sizing: border-box;
+}
+body
+{ background-image: url('Images/mountainfire.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: Lora, serif;
+}
+/*Navigation Bar*/
+.topnav {
+  overflow: hidden;
+  width: 100%;
+  background-color: #b71234;   
+} 
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  width: 20%;
+  }
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.topnav a:hover {
+  background-color: #f7355c;
+  color: #f2f2f2;
+}
+.topnav a.active {
+  background-color: #008542;
+  color: #ffffff;
+}
+/*Header*/
+.head{
+  color: #dbb694;
+  font-size:5vw;
+  background-color: #b71234;
+  overflow: hidden;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  font-family: 'EB Garamond', serif;
+}
+/*Images*/
+
+/*Articles*/
+.maintext{
+color: #ffffff;
+text-align: center;
+width: 50%;
+height: 50%;
+background: #b71234;
+margin: auto;
+display: inline-block;
+padding: 1%;
+}
+a.learn{
+  color:#ffffff;
+  font-size: 5vw;
+  padding: 1%;
+  /*border: 3px #ffffff;
+  border-style: dashed dashed solid dashed;*/
+}
+
+/*Footer*/
+footer{
+  color: #ffffff;
+  text-align: center;
+  padding: 0px;
+  background-color: #b71234;
+  vertical-align: bottom;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  }
+@media screen and (max-width: 600px) {
+  .maintext{
+    margin-bottom: 12%;
+  }
+}
